@@ -1,0 +1,132 @@
+.slider {
+    /* margin-top: 6em;
+    margin-bottom: 6em; */
+}
+
+.slide:first-child {
+    margin-left: 0;
+}
+
+#outer {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+#inner:first-child>.flex-box {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#inner {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    /* padding-left: 1.5em; */
+}
+
+.card-container {
+    display: inline-block;
+    margin-right: 2em;
+}
+
+
+/* end Best tutors section for home page  */
+
+
+/* cards */
+
+.cards-wrapper {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards-wrapper>.card-container {
+    flex: 1 1 auto;
+    margin-bottom: 3.5em;
+    margin-right: 2.5vw;
+    max-width: 17em;
+}
+
+.cards-wrapper .btn {
+    font-size: .8rem;
+}
+
+element.style {
+    width: auto !important;
+}
+
+
+/* cards end here */
+
+
+/* list buttons */
+
+.slider-button {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.page-number {
+    flex: 1 1 1;
+    margin: 0 3em;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+}
+
+.page-number p {
+    vertical-align: text-top;
+}
+
+.arrow-btn {
+    position: relative;
+    cursor: default;
+    width: 2em;
+    height: 2em;
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: black;
+    border-radius: 1em;
+    border-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.arrow-btn>p {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.arrow-btn.active {
+    color: #28B677;
+    border-color: rgba(40, 182, 119, .5);
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: .2s;
+}
+
+.arrow-btn.active:hover,
+.arrow-btn.active:focus {
+    color: white;
+    background-color: rgba(40, 182, 119, 1);
+}
+
+.rect {
+    width: 400px;
+    height: 500px;
+    background: grey;
+}

@@ -59,6 +59,10 @@ button {
     padding: 1em 6em;
 }
 
+.max-flex-box-item {
+    flex: 99 1 auto !important;
+}
+
 .content-container {
     margin-left: auto;
     margin-right: auto;
