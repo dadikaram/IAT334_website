@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
 </head>
 
 <body>
@@ -116,6 +117,61 @@
                     Sanctus Est Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo Duo
                     Dolores Et Ea Rebum.
                 </p>
+
+                <div class="slider">
+                    <!-- slider section-->
+                    <div id="elem" class="flex-box">
+                        <div id="outer" class="max-flex-box-item">
+                            <div id="inner">
+                                <a href='#' class='card-container slider'>
+                                    <div class="rect"></div>
+                                </a>
+
+                                <a href='#' class='card-container slider'>
+                                    <div class="rect"></div>
+                                </a>
+
+                                <a href='#' class='card-container slider'>
+                                    <div class="rect"></div>
+                                </a>
+
+                                <a href='#' class='card-container slider'>
+                                    <div class="rect"></div>
+                                </a>
+
+                                <a href='#' class='card-container slider'>
+                                    <div class="rect"></div>
+                                </a>
+                            </div>
+                            <!-- end of inner -->
+                        </div>
+                        <!-- end of outer -->
+
+                        <div class="slider-title-section">
+                            <!-- slider buttons -->
+                            <div class="max-flex-box-item"></div>
+
+                            <div class="slider-button">
+                                <a href="#" class="arrow-btn" id="left-button">
+                                    <p>&#8592;</p>
+                                </a>
+                                <div class="page-number">
+                                    <p class="body-text" id="currentPage">01</p>
+                                    <p class="body-text"> / </p>
+                                    <p class="body-text" id="totalPage">02</p>
+                                </div>
+
+                                <a href="#" class="arrow-btn active" id="right-button">
+                                    <p>&#8594;</p>
+                                </a>
+                            </div>
+                            <!-- end slider buttons -->
+                        </div>
+
+                    </div>
+                    <!-- end of elem -->
+
+                </div>
             </section>
 
             <section id="our-features" class="section">
@@ -157,6 +213,8 @@
     </div>
 
     <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="js/horizontal-scroll.js"></script>
 </body>
 
 </html>
