@@ -55,6 +55,10 @@ img {
     line-height: 1.3em;
 }
 
+.body-italic {
+    font-style: italic;
+}
+
 a {
     font-family: 'Didact Gothic', sans-serif;
     color: #000000;
@@ -75,23 +79,26 @@ button {
 
 .content-container {
     padding-top: 4em;
-    padding-left: 2.5%;
+    padding-left: 15%;
+    padding-right: 15%;
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
     justify-content: space-between;
-    width: 95%;
+    width: 100%;
 }
 
 .content-left {
-    flex: 2 1 60%;
-    padding-left: 8em;
-    padding-right: 5em;
+    flex: 2 1 auto;
+    min-width: 50%;
+    /* padding-left: 8em; */
+    /* padding-right: 5em; */
 }
 
 .content-right {
     flex: 1 1 auto;
-    padding-right: 8em;
+    padding-left: 5em;
+    /* min-width: 40%; */
 }
 
 .content-hidden {
@@ -265,4 +272,9 @@ button {
 .close-wrapper {
     width: auto;
     align-content: flex-end;
+}
+
+.comparison-chart {
+    width: 50vw;
+    padding-top: 2em;
 }
