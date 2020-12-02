@@ -1,49 +1,49 @@
 .pledge-container {
-  border: 2px solid #eeeeee;
-  border-radius: 8px;
-  width: inherit;
-  max-width: 25em;
-  padding: 2em;
-  margin-bottom: 3em;
-  margin-left: 3em;
+    border: 2px solid #eeeeee;
+    border-radius: 8px;
+    width: inherit;
+    max-width: 25em;
+    padding: 2em;
+    margin-bottom: 3em;
+    /* margin-left: 3em; */
 }
 
 .support-section.flex-container {
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .pledge-container button {
-  font-family: 'Poppins';
-  font-weight: 400;
-  color: #fff;
-  width: 100%;
-  margin-top: 1em;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #fff;
+    width: 100%;
+    margin-top: 1em;
 }
 
 .pledge-container .subtitle {
-  font-family: 'Didact Gothic';
-  font-weight: 400;
-  color: #1C2F4C;
-  font-size: 1.6em;
-  margin: 0;
+    font-family: 'Didact Gothic';
+    font-weight: 400;
+    color: #1C2F4C;
+    font-size: 1.6em;
+    margin: 0;
 }
 
 .pledge-container .section-title {
-  font-family: 'Poppins';
-  font-weight: 400;
-  color: #1C2F4C;
-  font-size: 1.2em;
-  margin: 2em 0 0 0;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #1C2F4C;
+    font-size: 1.2em;
+    margin: 2em 0 0 0;
 }
 
 .pledge-container .pledge-header {
-  font-family: 'Didact Gothic';
-  font-weight: 600;
-  color: #1C2F4C;
-  font-size: 1.8em;
-  margin: 0.5em 0 0.3em 0;
+    font-family: 'Didact Gothic';
+    font-weight: 600;
+    color: #1C2F4C;
+    font-size: 1.8em;
+    margin: 0.5em 0 0.3em 0;
 }
 
 .bullet {
-  margin-left: 1em;
+    margin-left: 1em;
 }

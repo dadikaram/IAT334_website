@@ -10,8 +10,11 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/support.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -87,7 +90,7 @@
                         </div>
 
                         <div class="support-summary-item">
-                            <button> Support Us</button>
+                            <button id="support-us-btn"> Support Us</button>
                         </div>
                     </div>
                 </div>
@@ -95,126 +98,290 @@
         </section>
 
         <div class="content-container">
-            <section id="about" class="section">
-                <div class="underline">
-                    <p class="heading-1">About</p>
-                </div>
+            <div class="content-left">
+                <section id="about" class="section">
+                    <div class="underline">
+                        <p class="heading-1">About</p>
+                    </div>
 
-                <p class="body-text">
-                    Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo Duo Dolores Et Ea Rebum. Stet Clita Kasd Gubergren, No Sea Takimata
-                    Sanctus Est Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo Duo
-                    Dolores Et Ea Rebum.
-                </p>
-            </section>
+                    <p class="body-text">
+                        Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo Duo Dolores Et Ea Rebum. Stet Clita Kasd Gubergren, No Sea Takimata
+                        Sanctus Est Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo
+                        Duo Dolores Et Ea Rebum.
+                    </p>
+                </section>
 
-            <section id="why-choose-us" class="section">
-                <div class="underline">
-                    <p class="heading-1">Why Choose Us?</p>
-                </div>
+                <section id="why-choose-us" class="section">
+                    <div class="underline">
+                        <p class="heading-1">Why Choose Us?</p>
+                    </div>
 
-                <p class="body-text">
-                    Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo Duo Dolores Et Ea Rebum. Stet Clita Kasd Gubergren, No Sea Takimata
-                    Sanctus Est Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo Duo
-                    Dolores Et Ea Rebum.
-                </p>
+                    <p class="body-text">
+                        Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo Duo Dolores Et Ea Rebum. Stet Clita Kasd Gubergren, No Sea Takimata
+                        Sanctus Est Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo
+                        Duo Dolores Et Ea Rebum.
+                    </p>
 
-                <div class="slider">
-                    <!-- slider section-->
-                    <div id="elem" class="flex-box">
-                        <div id="outer" class="max-flex-box-item">
-                            <div id="inner">
-                                <a href='#' class='card-container slider'>
-                                    <div class="rect"></div>
-                                </a>
+                    <div class="slider">
+                        <!-- slider section-->
+                        <div id="elemChoose" class="flex-box">
+                            <div id="outerChoose" class="outer max-flex-box-item">
+                                <div id="innerChoose" class="inner">
+                                    <a href='#' class='card-container slider'>
+                                        <div class="rect"></div>
+                                    </a>
 
-                                <a href='#' class='card-container slider'>
-                                    <div class="rect"></div>
-                                </a>
+                                    <a href='#' class='card-container slider'>
+                                        <div class="rect"></div>
+                                    </a>
 
-                                <a href='#' class='card-container slider'>
-                                    <div class="rect"></div>
-                                </a>
+                                    <a href='#' class='card-container slider'>
+                                        <div class="rect"></div>
+                                    </a>
 
-                                <a href='#' class='card-container slider'>
-                                    <div class="rect"></div>
-                                </a>
+                                    <a href='#' class='card-container slider'>
+                                        <div class="rect"></div>
+                                    </a>
 
-                                <a href='#' class='card-container slider'>
-                                    <div class="rect"></div>
-                                </a>
-                            </div>
-                            <!-- end of inner -->
-                        </div>
-                        <!-- end of outer -->
-
-                        <div class="slider-title-section">
-                            <!-- slider buttons -->
-                            <div class="max-flex-box-item"></div>
-
-                            <div class="slider-button">
-                                <a href="#" class="arrow-btn" id="left-button">
-                                    <p>&#8592;</p>
-                                </a>
-                                <div class="page-number">
-                                    <p class="body-text" id="currentPage">01</p>
-                                    <p class="body-text"> / </p>
-                                    <p class="body-text" id="totalPage">02</p>
+                                    <a href='#' class='card-container slider'>
+                                        <div class="rect"></div>
+                                    </a>
                                 </div>
-
-                                <a href="#" class="arrow-btn active" id="right-button">
-                                    <p>&#8594;</p>
-                                </a>
+                                <!-- end of inner -->
                             </div>
-                            <!-- end slider buttons -->
+                            <!-- end of outer -->
+
+                            <div class="slider-title-section">
+                                <!-- slider buttons -->
+                                <div class="max-flex-box-item"></div>
+
+                                <div class="slider-button">
+                                    <a href="#" class="arrow-btn" id="left-button-choose">
+                                        <p>&#8592;</p>
+                                    </a>
+                                    <div class="page-number">
+                                        <p class="body-text" id="currentPageChoose">01</p>
+                                        <p class="body-text"> / </p>
+                                        <p class="body-text" id="totalPageChoose">02</p>
+                                    </div>
+
+                                    <a href="#" class="arrow-btn active" id="right-button-choose">
+                                        <p>&#8594;</p>
+                                    </a>
+                                </div>
+                                <!-- end slider buttons -->
+                            </div>
+
                         </div>
+                        <!-- end of elem -->
 
                     </div>
-                    <!-- end of elem -->
+                </section>
 
+                <section id="our-features" class="section">
+                    <div class="underline">
+                        <p class="heading-1">Our Features</p>
+                    </div>
+
+                    <p class="body-text">
+                        Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo Duo Dolores Et Ea Rebum. Stet Clita Kasd Gubergren, No Sea Takimata
+                        Sanctus Est Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo
+                        Duo Dolores Et Ea Rebum.
+                    </p>
+
+                    <div class="slider">
+                        <!-- slider section-->
+                        <div id="elemFeature" class="flex-box">
+                            <div id="outerFeature" class="outer max-flex-box-item">
+                                <div id="innerFeature" class="inner">
+                                    <a href='#' class='card-container slider'>
+                                        <div class="rect"></div>
+                                    </a>
+
+                                    <a href='#' class='card-container slider'>
+                                        <div class="rect"></div>
+                                    </a>
+
+                                    <a href='#' class='card-container slider'>
+                                        <div class="rect"></div>
+                                    </a>
+
+                                    <a href='#' class='card-container slider'>
+                                        <div class="rect"></div>
+                                    </a>
+
+                                    <a href='#' class='card-container slider'>
+                                        <div class="rect"></div>
+                                    </a>
+                                </div>
+                                <!-- end of inner -->
+                            </div>
+                            <!-- end of outer -->
+
+                            <div class="slider-title-section">
+                                <!-- slider buttons -->
+                                <div class="max-flex-box-item"></div>
+
+                                <div class="slider-button">
+                                    <a href="#" class="arrow-btn" id="left-button-feature">
+                                        <p>&#8592;</p>
+                                    </a>
+                                    <div class="page-number">
+                                        <p class="body-text" id="currentPageFeature">01</p>
+                                        <p class="body-text"> / </p>
+                                        <p class="body-text" id="totalPageFeature">02</p>
+                                    </div>
+
+                                    <a href="#" class="arrow-btn active" id="right-button-feature">
+                                        <p>&#8594;</p>
+                                    </a>
+                                </div>
+                                <!-- end slider buttons -->
+                            </div>
+
+                        </div>
+                        <!-- end of elem -->
+
+                    </div>
+                </section>
+
+                <section id="design-decisions" class="section">
+                    <div class="underline">
+                        <p class="heading-1">Design Decisions</p>
+                    </div>
+
+                    <p class="body-text">
+                        Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo Duo Dolores Et Ea Rebum. Stet Clita Kasd Gubergren, No Sea Takimata
+                        Sanctus Est Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo
+                        Duo Dolores Et Ea Rebum.
+                    </p>
+
+                    <div class="slider">
+                        <!-- slider section-->
+                        <div id="elemDecision" class="flex-box">
+                            <div id="outerDecision" class="outer max-flex-box-item">
+                                <div id="innerDecision" class="inner">
+                                    <a href='#' class='card-container slider'>
+                                        <div class="rect"></div>
+                                    </a>
+
+                                    <a href='#' class='card-container slider'>
+                                        <div class="rect"></div>
+                                    </a>
+
+                                    <a href='#' class='card-container slider'>
+                                        <div class="rect"></div>
+                                    </a>
+
+                                    <a href='#' class='card-container slider'>
+                                        <div class="rect"></div>
+                                    </a>
+
+                                    <a href='#' class='card-container slider'>
+                                        <div class="rect"></div>
+                                    </a>
+                                </div>
+                                <!-- end of inner -->
+                            </div>
+                            <!-- end of outer -->
+
+                            <div class="slider-title-section">
+                                <!-- slider buttons -->
+                                <div class="max-flex-box-item"></div>
+
+                                <div class="slider-button">
+                                    <a href="#" class="arrow-btn" id="left-button-decision">
+                                        <p>&#8592;</p>
+                                    </a>
+                                    <div class="page-number">
+                                        <p class="body-text" id="currentPageDecision">01</p>
+                                        <p class="body-text"> / </p>
+                                        <p class="body-text" id="totalPageDecision">02</p>
+                                    </div>
+
+                                    <a href="#" class="arrow-btn active" id="right-button-decision">
+                                        <p>&#8594;</p>
+                                    </a>
+                                </div>
+                                <!-- end slider buttons -->
+                            </div>
+
+                        </div>
+                        <!-- end of elem -->
+
+                    </div>
+                </section>
+
+                <section id="demonstration" class="section">
+                    <div class="underline">
+                        <p class="heading-1">Demonstration</p>
+                    </div>
+
+                    <p class="body-text">
+                        Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo Duo Dolores Et Ea Rebum. Stet Clita Kasd Gubergren, No Sea Takimata
+                        Sanctus Est Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo
+                        Duo Dolores Et Ea Rebum.
+                    </p>
+                </section>
+            </div>
+
+            <div id="support-section" class="content-right content-hidden">
+                <div class="support-section flex-container">
+                    <div class="pledge-container support-title">
+                        <div class="flex-item">
+                            <p class="heading-1">SUPPORT</p>
+                        </div>
+
+                        <div class="close-wrapper" id="close-support-btn">
+                            <img class="icon" src="img/close.svg" alt="close icon">
+                        </div>
+                    </div>
+                    <div class="pledge-container">
+                        <p class="subtitle"> Pledge Without Reward </p>
+                        <p class="body-text">Send some support, every little bit counts! </p>
+                        <p class="body-text">Support the project for no reward, just because it speaks to you.</p>
+                        <button> Pledge Now </button>
+                    </div>
+
+                    <div class="pledge-container">
+                        <p class="subtitle"> Pledge CA $1.00 </p>
+                        <div class="underline">
+                            <p class="pledge-header"> Early Access </p>
+                        </div>
+                        <p class="body-text">Get early access to your A-way application for a discount of 99% off now! </p>
+                        <p class="section-title">INCLUDES:</p>
+                        <p class="body-text bullet">• Application access</p>
+                        <p class="body-text bullet">• Saved Time</p>
+                        <p class="body-text bullet">• Sharing Feature</p>
+                        <p class="section-title">RELEASE DATE:</p>
+                        <p class="body-text">December 2022</p>
+                        <button> Pledge Now </button>
+                    </div>
+
+                    <div class="pledge-container">
+                        <p class="subtitle"> Pledge CA $99.00 </p>
+                        <div class="underline">
+                            <p class="pledge-header"> Special Access </p>
+                        </div>
+                        <p class="body-text">Get super early access to your A-way application for a discount of 1% off now! </p>
+                        <p class="section-title">INCLUDES:</p>
+                        <p class="body-text bullet">• Application access</p>
+                        <p class="body-text bullet">• Saved Time</p>
+                        <p class="body-text bullet">• Sharing Feature</p>
+                        <p class="section-title">RELEASE DATE:</p>
+                        <p class="body-text">October 2022</p>
+                        <button> Pledge Now </button>
+                    </div>
                 </div>
-            </section>
-
-            <section id="our-features" class="section">
-                <div class="underline">
-                    <p class="heading-1">Our Features</p>
-                </div>
-
-                <p class="body-text">
-                    Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo Duo Dolores Et Ea Rebum. Stet Clita Kasd Gubergren, No Sea Takimata
-                    Sanctus Est Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo Duo
-                    Dolores Et Ea Rebum.
-                </p>
-            </section>
-
-            <section id="design-decisions" class="section">
-                <div class="underline">
-                    <p class="heading-1">Design Decisions</p>
-                </div>
-
-                <p class="body-text">
-                    Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo Duo Dolores Et Ea Rebum. Stet Clita Kasd Gubergren, No Sea Takimata
-                    Sanctus Est Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo Duo
-                    Dolores Et Ea Rebum.
-                </p>
-            </section>
-
-            <section id="demonstration" class="section">
-                <div class="underline">
-                    <p class="heading-1">Demonstration</p>
-                </div>
-
-                <p class="body-text">
-                    Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo Duo Dolores Et Ea Rebum. Stet Clita Kasd Gubergren, No Sea Takimata
-                    Sanctus Est Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo Duo
-                    Dolores Et Ea Rebum.
-                </p>
-            </section>
+            </div>
         </div>
     </div>
 
     <script src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script src="js/horizontal-scroll.js"></script>
+    <script src="js/horizontal-scroll-choose.js"></script>
+    <script src="js/horizontal-scroll-feature.js"></script>
+    <script src="js/horizontal-scroll-decision.js"></script>
 </body>
 
 </html>

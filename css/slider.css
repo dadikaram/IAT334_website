@@ -7,19 +7,20 @@
     margin-left: 0;
 }
 
-#outer {
-    width: 100%;
+.outer {
+    width: 80vw;
+    /* width: 55vw; */
     overflow: hidden;
     white-space: nowrap;
     display: inline-block;
 }
 
-#inner:first-child>.flex-box {
+.inner:first-child>.flex-box {
     padding-left: 0;
     margin-left: 0;
 }
 
-#inner {
+.inner {
     padding-top: 2em;
     padding-bottom: 2em;
     /* padding-left: 1.5em; */
