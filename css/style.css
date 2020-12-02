@@ -10,6 +10,16 @@ img {
     object-fit: cover;
 }
 
+.icon {
+    height: 1.4em;
+    width: auto;
+    cursor: pointer;
+}
+
+.icon:hover {
+    opacity: 0.5;
+}
+
 .heading-1 {
     font-family: Didact Gothic;
     color: #000000;
@@ -64,18 +74,38 @@ button {
 }
 
 .content-container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 60%;
+    padding-top: 4em;
+    padding-left: 2.5%;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
 }
 
-.section:first-of-type {
-    padding-top: 4em;
+.content-left {
+    flex: 2 1 60%;
+    padding-left: 8em;
+    padding-right: 5em;
+}
+
+.content-right {
+    flex: 1 1 auto;
+    padding-right: 8em;
+}
+
+.content-hidden {
+    display: none;
 }
 
 .section {
     padding-top: 2em;
     padding-bottom: 6em;
+    max-width: 100%;
+}
+
+.section:first-of-type {
+    padding-top: 0;
 }
 
 .top-nav {
@@ -162,6 +192,10 @@ button {
     flex: 1 1 auto;
 }
 
+#banner {
+    background: #E0ECFF;
+}
+
 #banner .banner-wrapper,
 #banner .support-summary {
     min-height: 90%;
@@ -175,11 +209,11 @@ button {
 .banner-wrapper img {
     height: 100%;
     min-width: 100%;
+    border-bottom-right-radius: 1em;
 }
 
 .support-summary {
     width: auto;
-    background: #C7C7C7;
     padding: 6em;
     display: -webkit-flex;
     display: -ms-flex;
@@ -205,6 +239,18 @@ button {
     margin-bottom: 0;
 }
 
+.support-title {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1em;
+}
+
 .section .heading-1 {
     text-transform: uppercase;
     margin-bottom: 0.5em;
@@ -214,4 +260,9 @@ button {
     border-bottom: solid 1px black;
     display: inline-block;
     margin-bottom: 1em;
+}
+
+.close-wrapper {
+    width: auto;
+    align-content: flex-end;
 }

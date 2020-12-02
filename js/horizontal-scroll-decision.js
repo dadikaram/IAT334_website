@@ -16,49 +16,49 @@ $(function() {
         }
     };
 
-    var elem = $("#elem");
+    var elem = $("#elemDecision");
     var items = elem.children();
 
-    var outer = $('#outer');
+    var outer = $('#outerDecision');
     var actualWidth = 0;
 
     var updateUI = function() {
         width = outer.outerWidth(true);
-        $.each($('#inner >'), function(i, item) {
+        $.each($('#innerChoose >'), function(i, item) {
             actualWidth += $(item).outerWidth(true);
         });
 
         if (actualWidth <= width) {
-            setInvisible($('#right-button'));
+            setInvisible($('#right-button-decision'));
         }
     };
     updateUI();
 
 
 
-    $('#left-button').click(function() {
-        setVisible($('#right-button'));
+    $('#left-button-decision').click(function() {
+        setVisible($('#right-button-decision'));
         var leftPos = outer.scrollLeft();
         outer.animate({
             scrollLeft: leftPos - (width / 1.5)
         }, 800, function() {
-            if ($('#outer').scrollLeft() <= 0) {
-                setInvisible($('#left-button'));
+            if ($('#outerDecision').scrollLeft() <= 0) {
+                setInvisible($('#left-button-decision'));
             }
         });
 
         return false;
     });
 
-    $('#right-button').click(function() {
-        setVisible($('#left-button'));
+    $('#right-button-decision').click(function() {
+        setVisible($('#left-button-decision'));
         var leftPos = outer.scrollLeft();
         outer.animate({
             scrollLeft: leftPos + (width / 1.5)
         }, 800, function() {
             console.log("leftPos: " + leftPos);
-            if ($('#outer').scrollLeft() >= (actualWidth - outer.outerWidth(true)) * 0.95) {
-                setInvisible($('#right-button'));
+            if ($('#outerDecision').scrollLeft() >= (actualWidth - outer.outerWidth(true)) * 0.95) {
+                setInvisible($('#right-button-decision'));
             }
         });
 
@@ -70,20 +70,20 @@ $(function() {
     });
 });
 
-var leftBtn = document.getElementById('left-button');
-var rightBtn = document.getElementById('right-button');
+var leftBtn = document.getElementById('left-button-decision');
+var rightBtn = document.getElementById('right-button-decision');
 
 leftBtn.addEventListener('click', decreasePageNumber);
 rightBtn.addEventListener('click', increasePageNumber);
 
 function increasePageNumber() {
-    var currentPage = document.getElementById('currentPage');
+    var currentPage = document.getElementById('currentPageDecision');
 
     currentPage.innerHTML = "02";
 }
 
 function decreasePageNumber() {
-    var currentPage = document.getElementById('currentPage');
+    var currentPage = document.getElementById('currentPageDecision');
 
     currentPage.innerHTML = "01";
 }
