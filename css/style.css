@@ -3,6 +3,10 @@
     font-size: 16px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 img {
     width: auto;
     max-width: 100%;
@@ -200,7 +204,7 @@ button {
 }
 
 #banner {
-    background: #E0ECFF;
+    background: #E3F0F2;
 }
 
 #banner .banner-wrapper,
@@ -277,4 +281,94 @@ button {
 .comparison-chart {
     width: 50vw;
     padding-top: 2em;
+}
+
+.subsection {
+    margin-bottom: 5em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid black;
+}
+
+.subsection:last-child {
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.image-container {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.example-container {
+    margin-right: 4em;
+}
+
+.example-container:last-child {
+    margin-right: 0;
+}
+
+.flex-row {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: row;
+}
+
+.example-container .flex-row .rect:first-child {
+    margin-right: 2em;
+}
+
+.overlay {
+    height: 533px;
+    width: 300px;
+    position: absolute;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s ease-in-out opacity;
+}
+
+#demonstration .rect,
+#demonstration a {
+    max-width: 300px;
+}
+
+.text-overlay {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.text-overlay .heading-3 {
+    text-align: center;
+    opacity: 0;
+    color: white;
+    transition: 0.3s ease-in-out opacity;
+}
+
+#demonstration .overlay:hover {
+    background: rgba(32, 47, 76, .5);
+}
+
+#demonstration .overlay:hover .text-overlay .heading-3 {
+    opacity: 1;
+}
+
+footer {
+    width: 100%;
+    background: #E3F0F2;
+    padding: 2em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+footer .heading-4 {
+    color: #1C2F4C;
+    text-align: center;
+    margin: 0;
 }
